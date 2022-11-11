@@ -27,7 +27,7 @@ cmake --build .
 ...and run it:
 
 ```
-./otio-cpp-example ../sample_timeline.otio
+./otio-cpp-example ../example.otio
 ```
 
 Please also consult with the OpenTimelineIO [documentation](https://opentimelineio.readthedocs.io/en/latest/index.html)
@@ -38,8 +38,8 @@ Good luck and happy coding!
 
 ## Github Actions
 
-A set of simple automation scripts are available in the `.github/workflows` folder.
-* `ci.yaml` - builds and runs the example program on Linux, macOS, and Windows.
+A simple automation script is available in the `.github/workflows` folder which
+builds and runs the example program on Linux, macOS, and Windows.
 
 
 ## Contributions
