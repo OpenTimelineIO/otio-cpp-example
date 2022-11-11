@@ -1,6 +1,6 @@
 # OpenTimelineIO C++ Example
 
-This repository serves as a minimal example of using OpenTimelineIO in a C++ application.
+This repository serves as a minimal example of using [OpenTimelineIO](https://opentimeline.io) in a C++ application.
 
 Allowable use of the code in this repository includes copying and pasting portions into
 your own projects without attribution.
