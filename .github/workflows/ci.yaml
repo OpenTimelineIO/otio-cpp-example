@@ -64,7 +64,6 @@ jobs:
 
     - name: Test
       working-directory: ${{github.workspace}}/${{ matrix.EXE_DIR }}
-      shell: bash
       run: |
-        ./${{ matrix.EXE }} ${{github.workspace}}/example.otio
+        ${{github.workspace}}/${{ matrix.EXE_DIR }}/${{ matrix.EXE }} ${{github.workspace}}/example.otio
 
