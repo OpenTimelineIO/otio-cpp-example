@@ -6,6 +6,8 @@ project(otio-cpp-example VERSION 1.0)
 add_executable(otio-cpp-example example.cpp)
 set_property(TARGET otio-cpp-example PROPERTY CXX_STANDARD 14)
 
+# For simplicity, use OTIO as a static library.
+# Larger applications may want to use a shared library.
 set(OTIO_SHARED_LIBS OFF)
 add_subdirectory("libs/OpenTimelineIO")
 include_directories(
