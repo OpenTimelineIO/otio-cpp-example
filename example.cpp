@@ -61,9 +61,9 @@ int main(int argc, char** argv)
     }
 
     // Print some info about all the clips in the timeline
-    // Note: timeline>clip_if() will recurse into all nested compositions
+    // Note: timeline>find_clips() will recurse into all nested compositions
     std::cout << "All Clips:" << std::endl;
-    for (const auto& clip : timeline->clip_if()) {
+    for (const auto& clip : timeline->find_clips()) {
         std::cout << "  Clip: " << clip->name() << std::endl
                   << "    Duration: " << clip->duration().to_timecode()
                   << std::endl;
